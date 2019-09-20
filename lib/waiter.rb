@@ -39,6 +39,10 @@ class Waiter
       end
     end
 
+    # this is much more elegant way, taken from the solution afterwards
+    # best_tipped_meal = meals.max {|a, b| a.tip <=> b.tip}
+    # best_tipped_meal.customer
+
     best_tipper
   end
 
